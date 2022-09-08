@@ -1,11 +1,23 @@
-#!/bin/bash
-#include ‹stdio.h>
+#include <stdio.h>
+
+
+
 /**
-* main - entry point
-*
-* Return: 0 after printing the function
-*/
+ *
+ *  * main - Entry point
+ *
+ *   *
+ *
+ *    * Return: Always 0 (Success)
+ *
+ *     */
+
 int main(void)
-{puts ("\ "Programming is like building a multilingual puzzle");
-	return (0);
-} 
+
+{
+
+		printf("with proper grammar, but the outcome is a piece of art,\n");
+
+			return (0);
+
+}
