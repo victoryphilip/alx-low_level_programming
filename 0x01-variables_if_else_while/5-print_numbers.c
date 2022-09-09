@@ -7,12 +7,14 @@
  */
 int main(void)
 {
-	int singleDigits;
+	int i;
+	for (i = 0; i < 10; i++)
 
-	for (singleDigits = 0; singleDigits < 10; singleDigits++)
-		printf("%d", singleDigits);
+	{
+		printf("%i", i);
+	}
 
-         printf("\n");
+	printf("\n");
 
-	 return  (0);
+	return (0);
 }
