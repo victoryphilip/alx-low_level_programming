@@ -24,11 +24,11 @@ int main(void)
 			if (var != 98)
 			{
 				putchar(',');
-	                        putchar(' ');
-		         }
-	          }
-	}
-
+	        	        putchar(' ');
+			}
+		}
+	}		
+		        	
 	putchar('\n');
 	return (0);
 }
