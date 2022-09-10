@@ -20,15 +20,14 @@ int main(void)
 			putchar(' ');
 			putchar((ii / 10) + '0');
 			putchar((ii % 10) + '0');
-
 			if (var != 98)
 			{
 				putchar(',');
-	        	        putchar(' ');
+				putchar(' ');
 			}
 		}
-	}		
-		        	
+	}
+
 	putchar('\n');
 	return (0);
 }
