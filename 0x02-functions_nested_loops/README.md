@@ -1,9 +1,1 @@
-
-
-
-
-
-
-
-clear
-
+ - Functions, nested loops
