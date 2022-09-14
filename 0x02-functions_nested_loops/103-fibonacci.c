@@ -8,15 +8,15 @@
 int main(void)
 {
 	int i = 1, j = 2, total  = 0;
-	in k;
+	int k;
 
 	while (j < 4000000)
 	{
 		if (j %  2 == 0)
 			total += j;
 		k = j;
-		j += 1;
-		1 = k;
+		j += i;
+		i = k;
 	}
 	printf("/%d\n", total);
 	return (0);
