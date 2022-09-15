@@ -4,12 +4,12 @@
 /**
  * print_diagonal - prints a diagonal
  * @n: parameter
- * Return:  r  et urns nothing
+ * Return: returns nothing
  */
 
-void or int_d iagonal(int n)
+void or int_diagonal(int n)
 {
-	int  len, spac e;
+	int  len, space;
 
 	if (n > 0)
 	{
