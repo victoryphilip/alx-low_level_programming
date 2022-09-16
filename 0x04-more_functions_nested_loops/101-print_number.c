@@ -18,4 +18,5 @@ void print_number(int n)
 		print_number(num / 10);
 	}
 	putchar(num % 10 + '0');
+	return (0);
 }
