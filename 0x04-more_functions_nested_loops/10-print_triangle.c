@@ -3,9 +3,9 @@
 /**
  * print_triangle - a function that prints a triangle
  * @size: size of the triangle
- * Return: Always 0
+ * Return: triangle of '#'s
  */
-void print_trianle(int size)
+void print_triangle(int size)
 {
 	int sp, ro, tr;
 
