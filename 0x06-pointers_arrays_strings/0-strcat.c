@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _strcat - a function that concatenates the string
@@ -7,11 +6,11 @@
  * @src: copy from
  * Return: two concat strings
  */
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
 	int i, n;
 
-	for (i = 0; dest[i] != '\v0'; i++)
+	for (i = 0; dest[i] != '\0'; i++)
 	{
 	}
 
