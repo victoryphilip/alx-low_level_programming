@@ -14,7 +14,7 @@ char *leet(char *n)
 
 	for (i = 0; n[i] != '\0'; i++)
 	{
-		for (x  = 0; x <= 9; x++)
+		for (x = 0; x <= 9; x++)
 		{
 			if (n[i] == find[x])
 			{
