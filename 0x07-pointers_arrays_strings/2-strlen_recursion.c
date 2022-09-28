@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strlen_recursion - note no _putchar in local test
+ * _strlen_recursion - note: no _putchar in local test
  * @s: input
  * Return: Always 0 (Success)
  */
