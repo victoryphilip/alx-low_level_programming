@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlb.h>
-#inlcude "main.h"
+#include "main.h"
 /**
  * main - Entry point
  * atoi is a function that converts a string into an int
@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 		{
 			res *= atoi(argv[i]);
 		}
-		printf("%s\n", res);
+		printf("%d\n", res);
 	}
 	return (0);
 }
