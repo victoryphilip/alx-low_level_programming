@@ -3,21 +3,28 @@
 #include "main.h"
 
 /**
- * main - prints the multiplication of two integers
- * @argc: argument count
- * @argv: argument vector
- * Return: 0 if true, 1 if false
+ * main - Entry point
+ * atoi is afunction that converts a string into an int
+ * @argc: arguments
+ * @argv: array pointing to arguments
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
-int a, b;
-if (argc == 1)
-{
-a = atoi(argv[1]);
-b = atoi(argv[2]);
-printf("%d\n", a *b);
-return (0);
-}
-printf("Error\n");
-return (1);
+	int i, res = 1;
+
+	if (argc != 3)
+	{
+		printf("%s\n", "Error");
+		return (1);
+	}
+	else
+	{
+		for (i = 1; i < argc; i++)
+		{
+			res *= atoi(argv[i]);
+		}
+		printf("%d\n", res);
+	}
+	return (0);
 }
