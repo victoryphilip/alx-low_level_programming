@@ -4,7 +4,7 @@
  * main - Entry point
  * @argc: arguments
  * @argv: array pointing to arguments
- * 	Return: 0
+ * Return: 0
  */
 int main(int argc, __attribute__((unused)) char *argv[])
 {
