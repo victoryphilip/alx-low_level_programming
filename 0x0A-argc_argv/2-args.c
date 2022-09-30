@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  * @argc: arguments
- * @rgv: array pointing to arguments
+ * @argv: array pointing to arguments
  * Return: 0
  */
 int main(int argc, char *argv[])
