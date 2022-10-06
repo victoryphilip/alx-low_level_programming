@@ -1,32 +1,30 @@
 #include <stdlib.h>
-#include <stdio.h>
-#include "main.h"
+
 /**
- * array_range - get len, malloc * len
- * loop size of len to insert min++ into new arr
- * @min: min input
- * @max: max input
- * Return: pointer to new arr of ints
+ * array_range - creates an array of integers, ordered from @min to @max
+ * @min: first and minimum value of the array to be created
+ * @max: last and maximum value of the array to be created
+ * Return: pointer to the newly created array (SUCCESS) or
+ * NULL if @min > @max (FAILURE) or
+ * NULL if insufficient memory was available (FAILURE)
  */
+
 int *array_range(int min, int max)
 {
-	int *arr;
-	int i, len;
+	int i, n;
+	int *ptr;
 
 	if (min > max)
-		return (NULL);
+		return ('\0');
 
-	for (len = 0; len < (max - min); len++)
-		;
+	n = (max - min) + 1;
+	ptr = malloc(sizeof(int) * n);
 
-	arr = malloc(sizeof(int) * (len + 1));
-	if (arr == NULL)
-		return (NULL);
+	if (ptr == NULL)
+		return ('\0');
 
-	for (i = 0; i <= len; i++)
-	{
-		arr[i] = min++;
-	}
+	for (i = 0; i < n; i++)
+		ptr[i] = min + i;
 
-	return (arr);
+	return (ptr);
 }
