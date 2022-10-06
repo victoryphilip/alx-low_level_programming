@@ -11,8 +11,8 @@ int _strlen(char *string)
 	int i;
 
 	for (i = 0; string[i] !=  '\0'; i++)
-
-		return (i);
+		;
+	return (i);
 }
 /**
  * string_noncat - concatenate s1 and n bytes of s2; return prt to string
@@ -24,10 +24,11 @@ int _strlen(char *string)
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *prt;
-	int num, i, j;
+	int num, len, i, j;
 
 	num = n;
 
+	if (s1 == NULL) /* account for NULL strings */
 	if (s1 == NULL) /* account for NULL strings */
 		s1 = "";
 	if (s2 == NULL)
