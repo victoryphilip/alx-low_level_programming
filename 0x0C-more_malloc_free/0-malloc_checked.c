@@ -1,18 +1,20 @@
-#include <stdlib.h>
-#include <stdio.h>
 #include "main.h"
+
 /**
- * malloc_checked - Entry Point
- * @b: input amount
- * Return: pointer to new mem
+ * malloc_checked - array for prints a string
+ * @b: number of memory
+ * Return: void
  */
+
 void *malloc_checked(unsigned int b)
 {
-	void *n;
+void *p;
 
-	n = malloc(b);
+p = malloc(b);
+if (p == NULL)
+{
+exit(96);
+}
 
-	if (n == NULL)
-		exit(98);
-	return (n);
+return (p);
 }
