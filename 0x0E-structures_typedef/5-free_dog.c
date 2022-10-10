@@ -14,6 +14,3 @@ void free_dog(dog_t *d)
 	free(d->owner);
 	free(d);
 }
-Footer
-c 2022 GitHub, Inc.
-Footer navigation
