@@ -12,7 +12,7 @@ void print_all(const char * const format, ...)
 	va_list valist;
 	int n = 0, i = 0;
 	char *sep = ", ";
-	char *str;
+	char *sep = ", ";
 
 	va_start(valist, format);
 
