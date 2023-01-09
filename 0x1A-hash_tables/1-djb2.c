@@ -1,8 +1,10 @@
+#include "hash_tables.h"
+
 /**
- * hash_djb2 - Hash function, takes a string and turns it into a hash number
- * @str: the string, a constant value unrepeated in the hash table
+ * hash_djb2 - Hash function that implement djb2 algorithm.
+ * @str: Key to aplied the transformation.
  *
- * Return: The hash number
+ * Return: Integer after the operations.
  */
 unsigned long int hash_djb2(const unsigned char *str)
 {
